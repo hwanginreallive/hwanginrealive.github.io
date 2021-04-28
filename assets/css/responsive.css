@@ -523,6 +523,7 @@
     .header__bottom{
         width: 90%;
         margin: auto;
+        position: relative;
     }
     .header__center{
         height: 0;
@@ -564,6 +565,10 @@
     }
     .header__center  .icon .lnr {
         display: none;
+    }
+    .header__center .icon {
+        position: absolute;
+        right: -8%;
     }
    .slider{
         height: 100%;
@@ -799,6 +804,10 @@
     .header__center__left img{
         width: 80%;
         padding-top: 5px;
+    }
+    .header__center .icon .shopping-bag{
+        position: inherit;
+        right: 5%;
     }
    .slider{
         height: 100%;
