@@ -374,7 +374,9 @@
         padding-top: 30px;
     }
     .slider__text .shopnow{
-        margin-top:10px;
+        margin-top:0px;
+        display: block;
+        padding-top: -30px;
     }
     .slider__text a{
         font-size: 40px;
@@ -576,9 +578,12 @@
     .slider__text{
         width: 320px;
         height: 300px;
+        padding-top: 0;
     }
     .slider__text .shopnow{
-        padding-top: 0px;
+        margin-top:0px;
+        display: block;
+        padding-top: -30px;
     }
     .slider__text a{
         font-size: 20px;
@@ -819,7 +824,7 @@
     }
     .slider__text{
          width: 280px;
-        height: 200px;
+        height: 250px;
         padding-top: 0;
     }
     .slider__text .shopnow{
