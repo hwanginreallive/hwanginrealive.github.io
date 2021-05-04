@@ -225,6 +225,7 @@
     display: block;
     box-sizing: border-box;
     padding-top: 15%;
+    font-size: 70px;
 }
 .slider__text h1{
     font-size: 70px;
@@ -243,13 +244,14 @@
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
+    display: block;
 }
 .slider__text .shopnow::after{
     content: "";
     width: 80px;
     height: 2px;
     background-color: #0ca8c9;
-    position: absolute;
+    position: relative;
     display: block;
 }
 .slider__text .btn{
@@ -441,13 +443,15 @@
     text-transform: uppercase;
     height: 107.73px;
 }
-.content__title--left h1{
+.content__title--left span{
     font-size: 90px;
     line-height: 1.2;
     color: #f5f5f5;
     margin: 0;
     padding: 0;
     letter-spacing:1px;
+    font-weight: bold;
+    display: block;
 }
 .content__title--left h2{
     position: relative;
@@ -463,18 +467,18 @@
     line-height: 110px;
     height: 100px;
 }
-.content__title--right i{
+.content__title--right a{
     margin-right: 30px;
     color: #8f8f8f;
     cursor: pointer;
     font-size: 32px;
     margin-top: 5px;
 }
-.content__title--right i:last-child{
+.content__title--right a:last-child{
     margin-right: 0;
     /* color: #0ca8c9; */
 }
-.content__title--right i:hover{
+.content__title--right a:hover{
     /* margin-right: 0; */
     color: #0ca8c9;
 }
@@ -536,7 +540,7 @@
     padding-bottom: 60px;
     height: 90px;
 }
-.new__title h1{
+.new__title span{
     font-size: 90px;
     line-height: 0;
     color: rgb(235, 235, 235);
@@ -563,7 +567,7 @@
     width: 1140px;
     margin: auto;
 }
-.new__item .item p{
+.new__item .item .item--info{
     width: 340px;
     font-weight: bold;
     font-size: 16px;
@@ -571,6 +575,7 @@
     margin-top: 20px;
     margin-bottom: 10px;
     cursor: pointer;
+    display: block;
 }
 .new__item .item span{
     color: #8f8f8f;
@@ -579,11 +584,11 @@
     /* font-family: "Myriad Pro"; */
     /* font-weight: bold; */
 }
-.new__item .item a{
+.new__item .item p{
     padding-top: 10px;
     line-height: 1.5;
    color: #0ca8c9; 
-   text-decoration: none;
+   display: inline-block;
 }
 .letter{
     height: 400px;
@@ -595,7 +600,7 @@
     margin: auto;
     text-align: center;
 }
-.letter__item h1{
+.letter__item h2{
     font-size: 32px;
     line-height: 1.2;
     color: white;
@@ -658,7 +663,7 @@
     margin: auto;
     justify-content: space-between;
 }
-.footer__content .item h1{
+.footer__content .item h2{
     font-size: 18px;
     line-height: 1.2;
     text-transform: uppercase;
@@ -680,15 +685,22 @@
     line-height: 1.308;
     font-size: 16px;
 }
+.footer__content .item ul .icon a{
+    margin-right: 20px;
+    cursor: pointer;
+    line-height: 1.308;
+    font-size: 16px;
+}
 .footer__content .item ul li i:hover{
     color: #0ca8c9;
     /* transform: scale(1.2);  */
 }
-.footer__content .item ul li p {
+.footer__content .item ul li a {
     display: inline-block;
     color: #8f8f8f;
+    cursor: pointer;
 }
-.footer__content .item ul li p:hover{
+.footer__content .item ul li a:hover{
     color: #0ca8c9;
     cursor: pointer;
     /* transform: scale(1.05); */
@@ -713,8 +725,9 @@
     display: flex;
     justify-content: space-between;
 }
-.footer__bottom .item--left p{
+.footer__bottom .item--left a{
     color: #8f8f8f;
+    display: inline-block;
     font-size: 12px;
     padding-top: 25px;
 }

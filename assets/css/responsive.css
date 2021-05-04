@@ -203,10 +203,10 @@
         height: 500px;
     }
     .slider__text{
-        width: 730px;
+        width: 600px;
         height: 100%;
     }
-    .slider__text h1{
+    .slider__text a{
         font-size: 40px;
     }
     .fact{
@@ -369,17 +369,16 @@
         height: 100%;
     }
     .slider__text{
-        width: 560px;
+        width: 400px;
         height: 300px;
         padding-top: 30px;
     }
     .slider__text .shopnow{
-        margin-top: 10;
+        margin-top:10px;
     }
-    .slider__text h1{
+    .slider__text a{
         font-size: 40px;
     }
-   
     .fact{
         width: 460px;
         justify-content: space-between;
@@ -420,7 +419,7 @@
     .content{
         width: 560px;
     }
-    .content__title--left h1{
+    .content__title--left span{
         font-size: 50px;
     }
     .content__title--left h2{
@@ -473,6 +472,7 @@
     }.new__item .item  span{
         width: 240px;
         font-size: 13px;
+        display: inline;
     }
     .letter__item{
         width: 560px;
@@ -580,13 +580,16 @@
     .slider__text .shopnow{
         padding-top: 0px;
     }
-    .slider__text h1{
+    .slider__text a{
         font-size: 20px;
     }
     .slider__text p{
         font-size: 12px;
         padding-bottom: 10px;
         padding-top: 10px;
+    }
+    .slider__text .shopnow{
+        margin-top: 20px;
     }
      .slider__text .btn{
         display: none;
@@ -635,7 +638,7 @@
     .content{
         width: 340px;
     }
-    .content__title--left h1{
+    .content__title--left span{
         font-size: 50px;
     }
     .content__title--left h2{
@@ -671,7 +674,7 @@
         flex-direction: column;
 
     }
-    .new__title h1{
+    .new__title span{
         font-size: 65px;
     }
     .new__title h2{
@@ -694,17 +697,19 @@
     .new__item .item  p{
         width: 320px;
         font-size: 13px;
+        display: inline;
     }.new__item .item  span{
         width: 240px;
         font-size: 13px;
     }
+    
     .letter{
         height: 500px;
     }
     .letter__item{
         width: 320px;
     }
-    .letter__item h1{
+    .letter__item h2{
         line-height: 1.4;
         font-size: 28px;
     }
@@ -815,16 +820,18 @@
     .slider__text{
          width: 280px;
         height: 200px;
+        padding-top: 0;
     }
     .slider__text .shopnow{
         margin-top: 0px;
     }
-    .slider__text h1{
+    .slider__text a{
         font-size: 20px;
+        padding: 0;
     }
     .slider__text p{
         font-size: 12px;
-        padding-bottom: 10px;
+        /* padding-bottom: 10px; */
         padding-top: 10px;
     }
      .slider__text .btn{
@@ -877,7 +884,7 @@
     .content{
         width: 280px;
     }
-    .content__title--left h1{
+    .content__title--left span{
         font-size: 50px;
     }
     .content__title--left h2{
@@ -911,9 +918,8 @@
         width: 280px;
         margin: auto;
         flex-direction: column;
-
     }
-    .new__title h1{
+    .new__title span{
         font-size: 50px;
     }
     .new__title h2{
@@ -924,7 +930,7 @@
         width: 280px;
     }
     .new__item .item{
-         width: 269px;
+         width: 280px;
         height: 80%;
         margin: auto;
         padding-bottom: 20px;
@@ -933,12 +939,15 @@
         width: 100%;
         height: 100%;
     }
-    .new__item .item  p{
+    .new__item .item  a{
         width: 250px;
         font-size: 13px;
     }.new__item .item  span{
         width: 240px;
         font-size: 13px;
+    }
+    .new__item .item .item--info{
+        width: 270px;
     }
     .letter{
         height: 500px;
@@ -946,7 +955,7 @@
     .letter__item{
         width: 280px;
     }
-    .letter__item h1{
+    .letter__item h2{
         line-height: 1.4;
         font-size: 22px;
     }
@@ -988,5 +997,9 @@
     .item--right img{
         width: 280px;
         text-align: center;
+    }
+    .footer__bottom .item--left a{
+        font-size: 11px;
+        width: 280px;
     }
 }
