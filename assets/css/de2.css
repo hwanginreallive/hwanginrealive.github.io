@@ -576,6 +576,7 @@
     margin-bottom: 10px;
     cursor: pointer;
     display: block;
+    /* height: max-content; */
 }
 .new__item .item span{
     color: #8f8f8f;
@@ -587,8 +588,8 @@
 .new__item .item p{
     padding-top: 10px;
     line-height: 1.5;
-   color: #0ca8c9; 
-   display: inline-block;
+    color: #0ca8c9; 
+    display: inline-block;
 }
 .letter{
     height: 400px;
