@@ -61,14 +61,49 @@
                             <option value="">lalalalisa_m</option>
                             <option value="">roses_are_rosie</option>
                         </select>
-                        <input type="text" placeholder="Search for Product...">
+                            <input class="input__search" type="text" placeholder="Search for Product...">
+                            <div class="search__history">
+                                <h3>option</h3>
+                                <ul>
+                                    <li>nothing</li>
+                                    <li>nothing</li>
+                                    <li>nothing</li>
+                                </ul>
+                            </div>
                         <button><i class="fas fa-search"></i></button>
                     </form>
                     <div class="icon">
                         <!-- <i  class="fas fa-search"></i> -->
                         <i class="lnr lnr-cog"></i>
                         <!-- <i class="fas fa-shopping-bag"></i> -->
-                        <i class="shopping-bag" ><img src="assets/images/shopping-bag.png" alt=""></i>
+                        <i  id="btn" class="shopping-bag" >
+                            <img id="btn" src="assets/images/shopping-bag.png" alt="">
+                        </i>
+                        <div id="model" class="shopping-cart">
+                            <h3 style="padding-top:20px" >BAG</h3>
+                            <div class="cart__item">
+                                <img src="assets/images/img-11.png" alt="">
+                                <a href="" class="cart__item-title">
+                                    Nature's Bounty Biotin 10000 MCG
+                                </a>
+                                <a href="" class="cart__item-price">
+                                    $30.00
+                                </a>
+                            </div>
+                            <div class="cart__item">
+                                <img src="assets/images/img-12.png" alt="">
+                                <a href="" class="cart__item-title">
+                                    Nature's Bounty Biotin 10000 MCG
+                                </a>
+                                <a href="" class="cart__item-price">
+                                    $30.00
+                                </a>
+                            </div>
+                            <div class="bottom">
+                                <a href="" class="checkout" >Check out</a>
+                                <a href="" class="view" >view bag</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -76,8 +111,18 @@
         <div class="layout-3">
             <div class="header__bottom">
                 <div class="header__bottom__left">
-                    <i class="fas fa-align-left"></i>
-                    <a href=""> Catgories</a>
+                    <i id="btn-subnav" class="fas fa-align-left"></i>
+                    <a  href=""> Catgories</a>
+                    <div id="subnav" class="subnav" >
+                        <ul style="list-style: none;" >
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Page</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="header__bottom__right">
                     <ul>
@@ -416,6 +461,8 @@
             </div>
         </div>
     </div>
+    <script src="assets/js/de2.js"></script>
+
 </body>
 
 </html>

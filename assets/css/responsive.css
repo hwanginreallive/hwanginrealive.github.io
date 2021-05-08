@@ -39,13 +39,17 @@
     .header__center__right .search select{
         position: relative;
         z-index: 2;
-        top: 40px;
+        top: 35px;
         left: 17px;
     }
     .header__bottom{
         width: 80%;
         box-sizing: border-box;
         margin:  auto;
+    }
+    .search__history{
+        left: 150px;
+        width: 200px;
     }
     .slider{
         height: 80%;
@@ -589,6 +593,7 @@
     }
     .header__bottom__left i{
         color: #0ca8c9;  
+        position: relative;
     }
     .header__bottom__right{
         display: none;
