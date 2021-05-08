@@ -370,7 +370,7 @@
         padding-top: 10px;
     }
      .header__center__right .icon i {
-        margin-left: 10px;
+        margin-left: 20px;
     }
     .header__bottom__left a {
         color: #0ca8c9;
@@ -378,7 +378,6 @@
     }
     .header__bottom__left i{
         color: #0ca8c9;
-        
     }
     .layout-2{
         height: 0;
@@ -585,7 +584,12 @@
         padding-top: 10px;
     }
     .header__center__right .icon i {
-        margin-left: 10px;
+        margin-left:90px;
+        position: relative;
+        z-index: 3;
+    }
+    .shopping-cart{
+        left: -220px;
     }
     .header__bottom__left a {
         color: #0ca8c9;
