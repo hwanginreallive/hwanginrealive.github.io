@@ -163,10 +163,66 @@
 .search .input__search:focus ~ .search__history{
     display: block;
 }
+.header__center__right .icon .lnr-cog{
+    position: relative;
+    z-index: 3;
+}
+.header__center__right .icon .setting{
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    left: -153px;
+    top: 62px;
+    /* margin-top: 28px; */
+    background-color: white;
+    border: 0.00000001px solid #0ca8c9;
+    visibility: hidden;
+}
+.header__center__right .icon .setting.active{
+    visibility: visible;
+}
+.header__center__right .icon .setting h3{
+    text-align: center;
+    display: block;
+    margin-top: -20px;
+}
+.header__center__right .icon .setting::before{
+    content: "";
+    position: relative;
+    top: -40px;
+    width: 0;
+    left: 175px;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 17px solid #0ca8c9;
+}
+.header__center__right .icon >.setting ul li {
+    list-style: none;
+    line-height: 50px;
+    padding-left: 20px;
+}
+.header__center__right .icon >.setting ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    color: #888888;
+}
+.header__center__right .icon >.setting ul li:hover {
+    background-color: #8f8f8f;
+    cursor: pointer;
+}
+.header__center__right .icon >.setting ul li:hover a{
+    color: white;
+}
+
+.shopping-bag{
+    position: relative;
+}
 .shopping-cart{
     position: absolute;
     z-index: 3;
-    left: -260px;
+    left: -242px;
     width: 340px;
     background-color: white;
     box-sizing: border-box;
@@ -174,7 +230,6 @@
     display: none;
     margin-top: 20px;
     border: 0.00000001px solid #0ca8c9;
-
 }
 .shopping-cart .cart__item{
     display: flex;
@@ -260,6 +315,11 @@
     height: 26px;
     position: relative;
 }
+.fa-times-circle{
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
 .header__center .shopping-bag::after{
     content: "2";
     font-size: 10px;
@@ -277,6 +337,13 @@
     padding-top: 1px;
     padding-right: 1px;
 }
+.fa-bars{
+    font-size: 25px;
+    color: #0ca8c9;
+    cursor: pointer;
+    visibility: hidden;
+}
+
 .layout-3{
     background-color: #0ca8c9;
     line-height: 50px;
