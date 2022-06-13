@@ -68,10 +68,10 @@ var prev = document.querySelector(".btn--prev")
 
 var slider = document.querySelector(".slider")
 
-console.log(slider)
+console.log(slider.style.background)
 next.onclick = function () {
-    slider.style.backgroundImage = `url(../images/slider-2.jpg)`;
+    slider.style.backgroundImage = "url(./assets/images/slider-2.jpg)"
 }
 prev.onclick = function () {
-    slider.style.backgroundImage ="url('slider-1.jpg')"
+    slider.style.backgroundImage = "url(./assets/images/slider-1.jpg)"
 }
